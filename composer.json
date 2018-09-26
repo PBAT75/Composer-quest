@@ -1,0 +1,20 @@
+{
+"name": "patricia/quete_composer",
+"description": "Projet quete composer",
+"authors": [
+    {
+        "name": "Patricia Batjom",
+        "email": "patriciabatjom@gmail.com"
+    }
+],
+"require": {
+    "swiftmailer/swiftmailer": "^6.1",
+    "ehime/hello-world": "^1.0"
+},
+"autoload": {
+    "psr-4":
+        {"App\\":"src/"}
+}
+
+}
+
